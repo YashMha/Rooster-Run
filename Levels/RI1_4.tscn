@@ -117,5 +117,3 @@ transform = Transform2D(1, 0, 0, 1, 150, 1550)
 [node name="deco_treeBig8" parent="." index="25" instance=ExtResource("13_3uvou")]
 offset = Vector2(-2100, 2500)
 transform = Transform2D(1, 0, 0, 1, -2100, 2500)
-
-[connection signal="area_entered" from="tileset_objects/LevelExit" to="tileset_objects/LevelExit" method="_on_area_entered"]

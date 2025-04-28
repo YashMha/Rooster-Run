@@ -143,5 +143,3 @@ bgMove_y = -325
 position = Vector2(2144, 224)
 displayedText = "Press shift to dash. Press jump right after landing during a dash, to perform a forward boost!"
 displayedText_size = 2
-
-[connection signal="area_entered" from="tileset_objects/LevelExit" to="tileset_objects/LevelExit" method="_on_area_entered"]

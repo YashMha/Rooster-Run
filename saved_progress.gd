@@ -4,13 +4,6 @@ extends Node2D
 
 
 
-
-#states 1: 0 - unfinished, 1 - finished, 2 - all big apples collected, 3 - all collectibles collected
-#states 2: 0 - none, 1 - finished with no damage taken
-#states 3: 0 - none, 1 - finished under target time
-#states 4: 0 - none, 1 - score attack mode finished, 2 - score rank D, 3 - score rank C, 4 - score rank B, 5 - score rank A, 6 - score rank S, 7 - score rank S+
-
-
 #ROOSTER ISLAND 1
 var state_RI1_1 = 0
 var state_RI1_2 = 0

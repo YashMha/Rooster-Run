@@ -36,4 +36,3 @@ func selected_check():
 	#for inventory_item in get_parent().get_children():
 		#if inventory_item.is_in_group("in_inventory"):
 			#get_parent().move_child(inventory_item, inventory_itemID)
-

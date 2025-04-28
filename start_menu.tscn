@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c370w0v3janyp"]
+[gd_scene load_steps=13 format=3 uid="uid://dfhpboydrlm7a"]
 
 [ext_resource type="Theme" uid="uid://dcxfejhbbj3pi" path="res://Themes/displays_theme.tres" id="1_6004i"]
 [ext_resource type="Script" uid="uid://mpoyj5vnf1ae" path="res://Assets/Graphics/sprites/Scripts/start_menu.gd" id="1_vyphu"]
@@ -195,7 +195,7 @@ offset_bottom = 514.0
 mouse_filter = 2
 theme_override_font_sizes/normal_font_size = 36
 bbcode_enabled = true
-text = "[wave amp=50.0 freq=10.0 connected=1]By: YNHV[/wave]"
+text = "[wave amp=50.0 freq=10.0 connected=1][/wave]"
 autowrap_mode = 0
 
 [node name="Control2" type="Control" parent="main_menu"]
@@ -306,6 +306,7 @@ autowrap_mode = 0
 
 [node name="Other" type="Button" parent="options_menu/menu_container"]
 unique_name_in_owner = true
+visible = false
 self_modulate = Color(1, 1, 1, 0)
 z_index = 1
 custom_minimum_size = Vector2(960, 96)
